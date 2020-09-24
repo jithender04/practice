@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <style>
+        *{
+            box-sizing: border-box;
+             margin:0px;
+            padding:0px; 
+        }
+        h1{
+            font-style: oblique;
+            text-align: center;
+        }
+        @media(min-width:992px){
+         .dv{
+            float:left;
+            width: 30% ;
+         }
+        }
+        @media(min-width: 768px) and (max-width:991px){
+         .tv{
+            float:left;
+            width: 46.5% ;
+         }
+        }
+        @media(max-width: 767px){
+         .pv{
+            float:left;
+            width: 97% ;
+         }
+        }
+        .dv,.pv,.tv{
+            border: 1px solid black;
+            background-color: grey;
+            /* margin-bottom: 15px; */
+            margin:1.66%;
+        }
+        .item1,.item2,.item3{
+            position: relative;
+            width: 20%;
+            padding-left: 20px;
+            margin-bottom: 0px;
+            left:80%;
+            font-weight:1000;
+            text-transform:capitalize;
+        }
+        .item1{
+            background-color: pink;
+        }        
+        .item2{
+            background-color:tomato;
+        }
+        .item3{
+            background-color: sandybrown;
+        }
+        p{
+            margin:0px;
+            padding: 5px;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <section class="dv tv mv">
+            <div class="item1">chicken</div>
+            <p>A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs. They are usually kept by humans as livestock. ... Like other female birds, hens lay eggs.</p>
+        </section>
+        <section class="dv tv mv">
+            <div class="item2">rice</div>
+            <p>Rice is the seed of the grass species Oryza glaberrima (African rice) or Oryza sativa (Asian rice). As a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia and Africa.</p>
+        </section>
+        <section class="dv tv mv">
+            <div class="item3">water</div>
+            <p>Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of all known living organisms.</p>
+        </section>
+
+    </body>
+</html>
