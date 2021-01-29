@@ -1,0 +1,68 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+.cake,
+.kitchen-equipment,
+.cake-ingredients {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70%;
+  opacity: 0.9;
+}
+.border {
+  background-color: #41bac1;
+  color: White;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.cake {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+  background-size: auto;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.textSection {
+  background-color: #642580;
+  padding: 50px 80px;
+}
+.kitchen-equipment {
+  background-image: url("utensils.JPG");
+}
+.cake-ingredients {
+  background-image: url("ingredients.jpg");
+}
+.caption {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .cake,
+  .layer-cake,
+  .kitchen-equipment,
+  .cake-ingredients,
+  .bowl-of-cakemix,
+  .cake-in-oven,
+  .decorated-cake {
+    background-attachment: scroll;
+  }
+}
